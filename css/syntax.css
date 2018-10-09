@@ -1,5 +1,5 @@
 /* targeting elements / tags -descendants */
 
-#main-content #sub-content p {
+#main-content > p {
     color: red;
 }
