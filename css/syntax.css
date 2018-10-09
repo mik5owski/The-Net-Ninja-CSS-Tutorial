@@ -1,8 +1,9 @@
-/* first amd last child selectors */
+/* first amd last type selectors */
 
-article p:first-child {
+article p:first-of-type {
     font-weight: bold;
 }
-article p:last-child {
+
+article p:last-of-type {
     color: red;
 }
