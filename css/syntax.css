@@ -1,5 +1,4 @@
-/* targeting elements / tags -descendants */
-
-#main-content > p {
-    color: red;
+/* targeting elements / tags -adjecent selector */
+#all-articles h2 + p {
+    background-color: grey;
 }
