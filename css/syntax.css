@@ -1,8 +1,5 @@
-/* targeting elements / tags -multiple elements */
+/* targeting elements / tags -descendants */
 
-p, span, a, li {
+#main-content #sub-content p {
     color: red;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Arial;
 }
