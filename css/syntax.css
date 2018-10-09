@@ -1,20 +1,13 @@
-/* targeting elements / tags -attribute selector */
-span[class~="deck"] {
-    color:purple;
+/* pseudo classes */
+
+a:hover {
+    color:red;
 }
 
-div[id] {
-    background-color: grey;
+a:active {
+    color: orange;
 }
 
-a[title="Search engine"] {
-    color: red;
-}
-
-a[href^="http"] {
-    color: pink;
-}
-
-a[href$="pdf"] {
-    color: green;
+a:visited {
+    color: purple;
 }
