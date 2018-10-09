@@ -1,9 +1,13 @@
-/* combining selectors*/
+/* font size*/
 
-article.featured-content {
-    background: red;
+article {
+    font-size: 16px;
 }
 
-div.featured-content {
-    background: blue;
+article h2 {
+    font-size: 8em;
+}
+
+article p {
+    font-size: 50%;
 }
