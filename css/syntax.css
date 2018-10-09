@@ -1,17 +1,9 @@
-/* targeting elements / tags - conflicts again  */
-
-#main-content p {
-    color: red;
-}
+/* targeting elements / tags - conflicts the important declaration */
 
 p {
-    color: black;
+    color: red !important;
 }
 
-.test {
-    color: green;
-}
-
-strong {
+#main-content p {
     color: green;
 }
