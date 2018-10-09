@@ -1,19 +1,9 @@
-/* targeting elements / tags  */
-
-h2 {
-    font-size: 24px;
-}
-
-#content-header {
-    font-size: 18px;
-    color: red;
-}
+/* targeting elements / tags - conflicts  */
 
 span {
-    display: block;
     color: blue;
 }
 
-.deck {
+span {
     color: red;
 }
