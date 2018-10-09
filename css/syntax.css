@@ -1,5 +1,7 @@
-/* font family*/
-
-article h2, article p {
-    font-family: 'Times New Roman', Times, serif;
+/* text color*/
+.box {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 100%;
 }
