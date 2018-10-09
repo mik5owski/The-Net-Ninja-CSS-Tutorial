@@ -1,4 +1,20 @@
-/* targeting elements / tags -adjecent selector */
-#all-articles h2 + p {
+/* targeting elements / tags -attribute selector */
+span[class~="deck"] {
+    color:purple;
+}
+
+div[id] {
     background-color: grey;
+}
+
+a[title="Search engine"] {
+    color: red;
+}
+
+a[href^="http"] {
+    color: pink;
+}
+
+a[href$="pdf"] {
+    color: green;
 }
