@@ -1,13 +1,5 @@
-/* font size*/
+/* font family*/
 
-article {
-    font-size: 16px;
-}
-
-article h2 {
-    font-size: 8em;
-}
-
-article p {
-    font-size: 50%;
+article h2, article p {
+    font-family: 'Times New Roman', Times, serif;
 }
