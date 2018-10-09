@@ -1,17 +1,17 @@
-/* targeting elements / tags - inheritence  */
+/* targeting elements / tags - conflicts again  */
 
-body {
-    color:red
-}
-
-div {
-    color: blue;
+#main-content p {
+    color: red;
 }
 
 p {
+    color: black;
+}
+
+.test {
     color: green;
 }
 
-a {
-    color: yellow;
+strong {
+    color: green;
 }
